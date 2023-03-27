@@ -616,7 +616,7 @@ Function RenameBomToCSV(confname As String) As String
     
     ' C:\...\Standard Module CAD Library\Pallet\Roller Straight\Sections\Library Generation Related\Master Drawings\**drawing name.slddrw**
     '
-    ' 0       1                     2                 3           4           5                 6                   7                   8
+    ' 0    1                 2               3          4           5                 6                   7                   8
     '
     Arr = Split(GetPath, "\")
     i = Len(Arr(8)) - 7
